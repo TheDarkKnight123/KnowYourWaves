@@ -1,0 +1,83 @@
+/*********************************
+0. Top bar
+*********************************/
+#emergency_call_on_top_bar {
+    font-size: 18px;
+    color: #7B7B7B;
+}
+
+#emergency_call_on_top_bar i {
+    color: #32c69a;
+}
+
+#emergency_call_on_top_bar:hover {
+    color: #32c69a;
+}
+
+
+/*********************************
+7. Milestones
+*********************************/
+
+.milestones
+{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.milestones h2 {
+    color: #5B5B5B;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin-bottom: 50px;
+}
+
+.milestone
+{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.milestone_icon
+{
+    display: inline-block;
+    height: 65px;
+    width: 65px;
+}
+.milestone_icon img
+{
+    max-width: 100%;
+}
+
+.milestone_counter
+{
+    font-size: 40px;
+    font-weight: 500;
+    color: #404040;
+    line-height: 0.75;
+    margin-left: 20px;
+}
+
+.test111 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #404040;
+    line-height: 0.75;
+    margin-left: 20px;
+}
+
+.milestone_text
+{
+    font-size: 18px;
+    font-weight: 500;
+    color: #9D9D9D;
+    margin-top: 25px;
+    line-height: 1.2;
+}
+
+/* extra */
+.info_title {
+    font-size: 25px;
+    color: #336699;
+}

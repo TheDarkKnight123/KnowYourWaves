@@ -1,0 +1,125 @@
+/*********************************
+0. Top bar
+*********************************/
+#emergency_call_on_top_bar {
+    font-size: 18px;
+    color: #7B7B7B;
+}
+
+#emergency_call_on_top_bar i {
+    color: #32c69a;
+}
+
+#emergency_call_on_top_bar:hover {
+    color: #32c69a;
+}
+
+/*********************************
+1. Pool
+*********************************/
+#pool {
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+/* search pool bar */
+#pool_search {
+    margin-bottom: 50px;
+}
+
+#pool_search label {
+    font-size: 18px;
+    color: #5B5B5B;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#pool_search #btn_search_pool {
+    background-color: #32c69a;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+/* pool result */
+#pool_result {
+    border: 1px solid #BEBEBE;
+    border-bottom: none;
+    padding: 20px 30px;
+}
+
+#pool_result h3 {
+    color: #336699;
+    font-weight: 600;
+}
+
+#pool_result table {
+    color: #5B5B5B;
+    font-size: 18px;
+}
+
+#pool_map {
+    border: 1px solid #BEBEBE;
+    border-top: none;
+    padding: 20px 30px;
+}
+
+#pool_map h3 {
+    color: #336699;
+    font-weight: 600;
+}
+
+#pool_map #map {
+    min-height: 400px;
+    padding: 10px;
+}
+
+/*********************************
+2. Fact
+*********************************/
+#fact_heading {
+    border: 1px solid #BEBEBE;
+    margin-top: 60px;
+    padding: 20px;
+}
+
+#fact_heading h2 {
+    color: #5B5B5B;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#fact {
+    border: 1px solid #BEBEBE;
+    border-top: none;
+    margin-bottom: 60px;
+    padding: 30px 20px;
+}
+
+.fact_box {
+    font-size: 18px;
+    color: #5B5B5B;
+    padding: 20px;
+}
+
+.fact_box ul {
+    list-style: disc;
+    margin-left: 50px;
+}
+
+.fact_box h3 {
+    color: #336699;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.img_box {
+    padding: 20px;
+    min-height: 250px;
+}
+
+.fact_footer {
+    color: #7B7B7B;
+}

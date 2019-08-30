@@ -1,0 +1,173 @@
+/*********************************
+0. Top bar
+*********************************/
+#emergency_call_on_top_bar {
+    font-size: 18px;
+    color: #7B7B7B;
+}
+
+#emergency_call_on_top_bar i {
+    color: #32c69a;
+}
+
+#emergency_call_on_top_bar:hover {
+    color: #32c69a;
+}
+
+/*********************************
+1. Search form
+*********************************/
+#search_form {
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+#search_form label {
+    font-size: 18px;
+    color: #5B5B5B;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#btn_search_beach {
+    background-color: #32c69a;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+/*********************************
+2. Search result
+*********************************/
+#search_result {
+    color: #4F4F4F;
+    font-size: 16px;
+    padding: 30px 50px;
+    border: 1px solid #BEBEBE;
+    margin-bottom: 60px;
+    /*display: none;*/
+}
+
+#search_result #beach_name {
+    color: #336699;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#search_result h3 {
+    color: #336699;
+    font-weight: 500;
+}
+
+#search_result .row {
+    margin-bottom: 50px;
+}
+
+#search_result .row p {
+    color: #FF9900;
+    font-size: 16px;
+}
+
+#map_box {
+    margin-top: 25px;
+}
+
+#beach_map {
+    width: 100%;
+    min-height: 300px;
+    border: 1px solid #9D9D9D;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/*********************************
+3. Animation
+*********************************/
+#animation {
+    padding: 40px 50px;
+    border: 1px solid #BEBEBE;
+    margin-bottom: 80px;
+}
+
+#animation_title {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+#animation_title h2 {
+    color: #336699;
+    font-weight: bold;
+}
+
+#animation_title p {
+    color: #FF9900;
+    font-size: 18px;
+}
+
+.animation_box {
+    padding: 10px 25px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.animation_screen {
+    margin-bottom: 25px;
+}
+
+.animation_title {
+    font-size: 25px;
+    color: #5B5B5B;
+    font-weight: 500;
+}
+
+.animation_text {
+    font-size: 15px;
+    color: #7B7B7B;
+}
+
+.animation_box_border {
+    border: 2px inset #32c69a;
+}
+
+/*********************************
+4. Modals
+*********************************/
+#animation_modal h3 {
+    color: #336699;
+}
+
+#animation_modal ul {
+    list-style: disc;
+    color: #6C6C6C;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/*********************************
+5. Tabs
+*********************************/
+.temp_box {
+    font-size: 16px;
+    color: #4F4F4F;
+}
+
+#cu_temp {
+    font-size: 60px;
+    font-weight: 600;
+    color: #336699;
+}
+
+#update_time {
+    color: #8E8E8E;
+}
+
+#change_buttons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+

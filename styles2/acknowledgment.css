@@ -1,0 +1,36 @@
+/*********************************
+0. Top bar
+*********************************/
+#emergency_call_on_top_bar {
+    font-size: 18px;
+    color: #7B7B7B;
+}
+
+#emergency_call_on_top_bar i {
+    color: #32c69a;
+}
+
+#emergency_call_on_top_bar:hover {
+    color: #32c69a;
+}
+
+/*********************************
+1. Acknowledgment
+*********************************/
+#acknowledgment {
+    /*padding: 50px 20px;*/
+    margin-top: -120px;
+    margin-bottom: 60px;
+}
+
+#acknowledgment h2 {
+    color: #336699;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#acknowledgment table {
+    font-size: 15px;
+    color: #6C6C6C;
+    padding: 20px;
+}

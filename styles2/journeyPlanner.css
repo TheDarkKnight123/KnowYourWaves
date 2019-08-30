@@ -1,0 +1,156 @@
+/*********************************
+0. Top bar
+*********************************/
+#emergency_call_on_top_bar {
+    font-size: 18px;
+    color: #7B7B7B;
+}
+
+#emergency_call_on_top_bar i {
+    color: #32c69a;
+}
+
+#emergency_call_on_top_bar:hover {
+    color: #32c69a;
+}
+
+/*********************************
+1. Quiz
+*********************************/
+#quiz_progress .progress {
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+#quiz {
+    min-height: 480px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    padding: 50px;
+    border: 1px solid #BEBEBE;
+    background-color: #FFFFCC;
+    display: none;
+}
+
+#quiz h3 {
+    color: #336699;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#quiz label {
+    color: #5B5B5B;
+    font-size: 20px;
+}
+
+#quiz p {
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-top: 15px;
+}
+
+#quiz p i {
+    font-size: 30px;
+    color: #32c69a;
+}
+
+.btn-group {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#q1_btn1, #q1_btn2, #q1_btn2, #q3_btn2, #q4_btn2, #q5_btn2 {
+    cursor: not-allowed;
+}
+
+#q2_btn1, #q3_btn1, #q4_btn1, #q5_btn1 {
+    cursor: pointer;
+}
+
+#q5_btn2 {
+    background-color: #32c69a;
+    border-color: #32c69a;
+}
+
+#quiz_q2, #quiz_q3, #quiz_q4, #quiz_q5 {
+    display: none;
+}
+
+#quiz_q1 p, #quiz_q2 p, #quiz_q3 p, #quiz_q4 p {
+    display: none;
+    padding-left: 50px;
+    padding-right: 5px;
+}
+
+#quiz_q5 form {
+    padding-left: 50px;
+}
+
+/*********************************
+2. Quiz result
+*********************************/
+#quiz_result {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    padding: 30px;
+    border: 1px solid #BEBEBE;
+    display: none;
+}
+
+#quiz_result h4 {
+    color: #336699;
+    font-weight: 600;
+}
+
+.result_box {
+    padding: 40px 20px;
+}
+
+.table {
+    color: #5B5B5B;
+    font-size: 18px;
+}
+
+/* extra */
+#result_part1, #result_part2, #result_part3 {
+    display: none;
+}
+
+#result_part3 ul {
+    font-size: 15px;
+    color: #5B5B5B;
+    list-style: disc;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#test {
+    margin-top: 130px;
+}
+
+#test p {
+    visibility: hidden;
+}
+
+#start_quiz {
+    padding: 50px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    border: 1px solid #BEBEBE;
+}
+
+#start_quiz p {
+    color: #336699;
+    font-size: 25px;
+    margin: 20px 50px;
+    font-weight: 500;
+}
+
+#start_quiz button {
+    background-color: #32c69a;
+    padding: 20px 25px;
+    font-size: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
